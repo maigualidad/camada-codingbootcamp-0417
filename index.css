@@ -1,0 +1,202 @@
+
+
+body {
+
+    background-image: linear-gradient(to right,#594F4F, #547980, #45ADA8, #9DE0AD, #E5FCC2);
+    min-height: 100vh;
+    margin: 0px;
+    
+
+}
+
+
+
+.padre {
+    height: 400px ;
+    width: 300px;
+    border: 1px #594F4F solid;
+    background-color: white;
+    position: fixed;
+    top: 20%; 
+    left: 40%; 
+
+
+}
+
+
+.miniheader {
+
+    width: 300px;
+    height: 200px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+
+img {
+
+    height:100px;
+
+}
+
+.sesion {
+
+    font-size: 20px;
+    font-family: calibri;
+    font-weight: 100;
+    color: #547980;
+
+
+}
+
+.informacion {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    height: 150px;
+
+}
+
+.iniciars {
+
+    width: 200px;
+    height: 40px;
+    border: 1px solid #555;
+    padding: 0px;
+    margin-top: 2px;
+
+}
+
+.sesion {
+
+
+    font-size: 15px;
+
+}
+
+.submit {
+
+    width: 200px;
+    height: 40px;
+    border: 1px solid #555;
+    background-color: #45ADA8;
+    color: #E5FCC2;
+    padding: 0px;
+    margin-top: 2px;
+
+
+}
+
+
+.olvide
+ {  
+    
+    margin-top: 10px
+    
+ }
+
+ .boton {
+    background-color: #547980;
+    color: #E5FCC2;
+    height: 20px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid #555;
+    font-size: 13px;
+    font-family: calibri;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 10px
+
+ }
+
+form {
+
+    width: 200px;
+     
+}
+
+input {
+
+    font-family: calibri;
+    font-weight: 100;
+    font font-size: 20px;
+
+
+
+}
+
+
+@media (max-width: 1024px) {
+
+
+    .padre {
+            height: 300px;
+            width: 200px;
+            position: fixed;
+       
+         
+
+    }
+
+
+    .miniheader {
+
+        width: 200px;
+        height: 100px;
+
+    }
+        
+     .iniciars {
+
+        width: 100px;
+        height: 20px;
+
+     }
+
+     form {
+     width: 100px; 
+    
+    }
+
+     .submit {
+
+        width: 100px;
+        height: 20px;
+
+     }
+
+     .informacion {
+
+        width: 200px;
+     }
+
+     .olvide {
+        width: 100px;
+
+     }
+
+     .boton {
+        height: 15px;
+        width: 110px;
+        font-size: 10px;
+     }
+
+
+     img {
+
+        height:50px;
+        margin-top: 40px;
+    
+    }
+
+}
+
