@@ -9,6 +9,16 @@ body {
 
 }
 
+.centrar
+{
+
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100vh;
+
+}
 
 
 .padre {
@@ -16,9 +26,8 @@ body {
     width: 300px;
     border: 1px #594F4F solid;
     background-color: white;
-    position: fixed;
-    top: 20%; 
-    left: 40%; 
+    
+
 
 
 }
